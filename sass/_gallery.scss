@@ -9,6 +9,14 @@
 	gap: 1.5rem;
 	padding: 1.5rem;
 
+	@media only screen and (max-width: $bp-medium) {
+		gap: 1rem;
+	}
+
+	@media only screen and (max-width: $bp-small) {
+		gap: 0.5rem;
+	}
+
 	&__img {
 		width: 100%;
 		height: 100%;
@@ -80,4 +88,3 @@
 		}
 	}
 }
-
